@@ -278,7 +278,7 @@ class deploy():
             
             else:
                 with self.col_container_med:
-                    st.title('Segun el modelo el cliente podria abandonar el banco')
+                    st.title('El cliente podria abandonar el banco')
                     
             components.html(plot_user_html)
             
