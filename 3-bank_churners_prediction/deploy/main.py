@@ -84,7 +84,7 @@ class deploy():
         
         # Creo columnas para centrar los textos.
         with self.container_result:
-            self.col_container_izq, self.col_container_med, self.col_container_der = st.columns([1,3,1])
+            self.col_container_izq, self.col_container_med, self.col_container_der = st.columns([1,5,1])
             
         # Si se ingresa algun valor al numer_input me ejecuta los siguientes metodos.  
         if self.id:
