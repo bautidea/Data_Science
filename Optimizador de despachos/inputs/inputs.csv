@@ -1,0 +1,10 @@
+VALOR;DESCRIPCION
+01/04/2021;Día a partir del cual se quiere calcular (dia actual) (DIA/MES/AÑO)
+04/05/2021;Día hasta el cual se quiere calcular (ultimo día) (DIA/MES/AÑO)
+NO;Se desea usar la fecha temprana de siembra  ('SI' o 'NO')
+SI;Se desea usar la fecha tardía de siembra  ('SI' o 'NO')
+12500;Capacidad logistica diaria (SSU)
+3000;Capacidad REAP por dia (SSU)
+Q;Ultima campaña despachable
+SI;Calcular fechas erroneas  ('SI' o 'NO')
+SI;Correr Por OTD ('SI' o 'NO')

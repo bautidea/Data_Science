@@ -1,0 +1,10 @@
+VALOR;DESCRIPCION
+28/02/2023;Día a partir del cual se quiere calcular (dia actual) (DIA/MES/AÑO)
+07/03/2023;Día hasta el cual se quiere calcular (ultimo día) (DIA/MES/AÑO)
+NO;Se desea usar la fecha temprana de siembra  ('SI' o 'NO')
+NO;Se desea usar la fecha tardía de siembra  ('SI' o 'NO')
+12500;Capacidad logistica diaria (SSU)
+3000;Capacidad REAP por dia (SSU)
+Q;Ultima campaña despachable
+SI;Calcular fechas erroneas  ('SI' o 'NO')
+NO;Correr Por OTD ('SI' o 'NO')

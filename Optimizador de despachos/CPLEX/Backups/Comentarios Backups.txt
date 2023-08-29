@@ -1,0 +1,10 @@
+20220517_BAYER_Modelo_CPLEX_Unificado
+
+- Backup previo a la correción de la constraint 3, en donde se detecto que se utilizaba un dataframe (df_Result_p) temporal, y se modifico por el correspondiente (df_Result_final)
+
+
+________________________________________________________________________________
+
+20220914_BAYER_Modelo_CPLEX_Unificado
+
+- Backup previo a la correción de la función asignar_materiales_a_pedidos que no validaba que aún tenga materiales pendientes para asignar dentro del while, y daba un error de out of bounds.

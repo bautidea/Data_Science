@@ -1,0 +1,29 @@
+
+(base) C:\Users\Administrator\Desktop\CPLEX>REM python BAYER_Modelo_CPLEX_Unificado.py -m 0 
+
+(base) C:\Users\Administrator\Desktop\CPLEX>REM ECHO Finalizo El Primer Modelo 
+
+(base) C:\Users\Administrator\Desktop\CPLEX>REM python BAYER_Modelo_CPLEX_Unificado.py -m 2 
+
+(base) C:\Users\Administrator\Desktop\CPLEX>REM ECHO Finalizo El Segundo Modelo 
+
+(base) C:\Users\Administrator\Desktop\CPLEX>python BAYER_Modelo_CPLEX_Unificado.py -m 1 
+Model: pedidos
+ - number of variables: 566
+   - binary=1, integer=0, continuous=565
+ - number of constraints: 766
+   - linear=766
+ - parameters: defaults
+ - problem type is: MILP
+
+(base) C:\Users\Administrator\Desktop\CPLEX>ECHO Finalizo La ejecución del modelo con los inputs enviados 
+Finalizo La ejecución del modelo con los inputs enviados
+
+(base) C:\Users\Administrator\Desktop\CPLEX>cd C:\Users\Administrator\Desktop\Listener 
+
+(base) C:\Users\Administrator\Desktop\Listener>rem python limpiar_carpeta.py 
+
+(base) C:\Users\Administrator\Desktop\Listener>rem ECHO Los Archivos Variables se han limpiado 
+
+(base) C:\Users\Administrator\Desktop\Listener>python Mail.py 
+Mail Enviado
